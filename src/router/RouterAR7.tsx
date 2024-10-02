@@ -1,9 +1,8 @@
-import { Suspense, lazy } from "react";
+import { Suspense } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import LandingPage from "../pages/landing-page/LandingPage";
 
-const Testpage = lazy(() => import("../pages/testpage/Testpage"));
 const RouterAR7 = () => {
   return (
     <>

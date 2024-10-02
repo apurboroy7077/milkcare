@@ -3,8 +3,6 @@ import giveStateAfterAddingNewUser from "../../functions/useMultiplayer/give-sta
 import giveStateAfterTryingToOnSocket from "../../functions/useMultiplayer/socket/giveStateAfterTryingToOnSocket";
 import { getDataFromLocalStorage } from "../../functions/localstorage/get-data-from-localstorage/getDataFromLocalStorage";
 
-const initialState = {};
-
 const useMultiplayer = create<useMultiplayerZustandStateType>((set, get) => ({
   playerName: "",
   playerId: "",
