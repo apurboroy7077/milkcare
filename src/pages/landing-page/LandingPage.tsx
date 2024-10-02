@@ -122,21 +122,21 @@ const LandingPage = () => {
                       <div className="flex justify-between items-end">
                         <div className="w-[30%] rounded-lg overflow-hidden transition-all duration-500 hover:translate-y-[-1rem]">
                           <img
-                            src="/public/images/landing-page/mobile-image-1.jpg"
+                            src="/images/landing-page/mobile-image-1.jpg"
                             alt=""
                             className="w-full"
                           />
                         </div>
                         <div className="w-[30%] rounded-lg overflow-hidden transition-all duration-500 hover:translate-y-[-1rem]">
                           <img
-                            src="/public/images/landing-page/mobile-image-2.jpg"
+                            src="/images/landing-page/mobile-image-2.jpg"
                             alt=""
                             className="w-full"
                           />
                         </div>
                         <div className="w-[30%] rounded-lg overflow-hidden transition-all duration-500 hover:translate-y-[-1rem]">
                           <img
-                            src="/public/images/landing-page/mobile-image-3.jpg"
+                            src="/images/landing-page/mobile-image-3.jpg"
                             alt=""
                             className="w-full"
                           />
@@ -392,7 +392,7 @@ const LandingPage = () => {
                           <div className="flex items-center gap-5">
                             <div className="w-[5rem] h-[5rem] rounded-full overflow-hidden">
                               <img
-                                src="public/images/landing-page/girl.jpg"
+                                src="/images/landing-page/girl.jpg"
                                 alt=""
                                 className="w-full h-full object-cover object-center"
                               />
@@ -488,7 +488,7 @@ const LandingPage = () => {
                           <div className="flex items-center gap-5">
                             <div className="w-[5rem] h-[5rem] rounded-full overflow-hidden">
                               <img
-                                src="public/images/landing-page/girl.jpg"
+                                src="/images/landing-page/girl.jpg"
                                 alt=""
                                 className="w-full h-full object-cover object-center"
                               />
