@@ -15,7 +15,7 @@ const LandingPage = () => {
 
         if (headerDivRef.current) {
           const headerDiv = headerDivRef.current as HTMLDivElement;
-          headerDiv.style.height = heightOfHeaderDiv + "px";
+          headerDiv.style.height = heightOfHeaderDiv - 2 + "px"; // -2 for real mobile issue
           console.log("function activated");
         }
       }
