@@ -153,7 +153,7 @@ const LandingPage = () => {
       </header>
       <main>
         <section>
-          <div className="pt-10 md:pt-32 flex justify-center items-center bg-[#131313] px-5">
+          <div className="pt-10 md:pt-32 lg:pt-[13rem] flex justify-center items-center bg-[#131313] px-5">
             <div className="max-w-screen-xl w-full  py-10 ">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-x-10 lg:gap-x-16 md:gap-y-0">
                 <div>
@@ -360,12 +360,14 @@ const LandingPage = () => {
           </div>
         </section>
         <section>
-          <div className="pt-10 md:pt-36 flex justify-center items-center bg-[#131313] px-5">
+          <div className="pt-10 md:pt-36 lg:pt-[13rem] flex justify-center items-center bg-[#131313] px-5">
             <div className="max-w-screen-xl w-full  py-10 ">
               <div>
-                <div className="text-[white] opacity-[0.7]">FROM CLIENTS</div>
+                <div className="text-[white] md:text-xl lg:text-2xl opacity-[0.7]">
+                  FROM CLIENTS
+                </div>
 
-                <div className="mt-10">
+                <div className="mt-10 lg:mt-16">
                   <Swiper
                     modules={[Autoplay]}
                     slidesPerView={1} // Default for small screens
@@ -388,31 +390,31 @@ const LandingPage = () => {
                       // when window width is >= 1024px
                       1024: {
                         slidesPerView: 3,
-                        spaceBetween: 70,
+                        spaceBetween: 75,
                       },
                     }}
                   >
                     <SwiperSlide key={ar7Id()} className="">
                       <div>
-                        <div className="text-[white] opacity-[0.9]">
+                        <div className="text-[white] opacity-[0.9] lg:text-lg">
                           Working with you has been truly wonderful, and I'm
                           delighted to have found your business. You've
                           transformed my brand into something I'm proud to
                           showcase, and you've truly nailed it.
                         </div>
-                        <div className="mt-7 text-sm text-[white] opacity-[0.7]">
+                        <div className="mt-7 text-sm lg:text-base text-[white] opacity-[0.7]">
                           TORONTO-BASED DEVELOPER
                         </div>
                       </div>
                     </SwiperSlide>
                     <SwiperSlide key={ar7Id()} className="">
                       <div className="mt-10 md:mt-0">
-                        <div className="text-[white] opacity-[0.9]">
+                        <div className="text-[white] opacity-[0.9] lg:text-lg">
                           The Milkbar team are amazing to work and understood my
                           vision right from the beginning. Will definitely
                           recommend Milkbar to others in the luxury home space.
                         </div>
-                        <div className="mt-7 text-sm text-[white] opacity-[0.7]">
+                        <div className="mt-7 text-sm lg:text-base text-[white] opacity-[0.7]">
                           HOUSE OF ONE MIAMI - LA
                         </div>
                       </div>
