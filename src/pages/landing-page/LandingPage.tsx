@@ -34,12 +34,12 @@ const LandingPage = () => {
         <div ref={headerDivRef} className=" overflow-hidden relative">
           <img
             src="/images/landing-page/header-image.jpg"
-            className="h-full w-full object-cover object-center"
+            className="h-full w-full object-cover object-center md:object-fit  xl:object-[center_-35rem]  -scale-x-100"
             alt=""
           />
           <div
             ref={headerRef}
-            className="bg-black bg-opacity-70 w-full h-fit absolute top-0 "
+            className="bg-black bg-opacity-80 lg:bg-opacity-70 w-full h-fit absolute top-0 "
           >
             <div className=" md:hidden">
               <div className=" py-5 bg-gradient-to-b from-black to-transparent transition-all duration-500">
@@ -97,7 +97,7 @@ const LandingPage = () => {
                 </div>
               </div>
             </div>
-            <div className="mt-20 lg:mt-36">
+            <div className="mt-20 lg:mt-36 xl:mt-[15rem]">
               <div className="px-5 flex justify-center items-center">
                 <div className="lg:flex max-w-screen-xl w-full lg:justify-between">
                   <div className="lg:w-[30%]">
@@ -120,21 +120,21 @@ const LandingPage = () => {
                   <div className="lg:w-[60%]">
                     <div className="mt-16 lg:mt-0">
                       <div className="flex justify-between items-end">
-                        <div className="w-[30%] rounded-lg overflow-hidden transition-all duration-500 hover:translate-y-[-1rem]">
+                        <div className="w-[30%] rounded-lg overflow-hidden transition-all duration-700 hover:translate-y-[-1rem] cursor-pointer">
                           <img
                             src="/images/landing-page/mobile-image-1.jpg"
                             alt=""
                             className="w-full"
                           />
                         </div>
-                        <div className="w-[30%] rounded-lg overflow-hidden transition-all duration-500 hover:translate-y-[-1rem]">
+                        <div className="w-[30%] rounded-lg overflow-hidden transition-all duration-700 hover:translate-y-[-1rem] cursor-pointer">
                           <img
                             src="/images/landing-page/mobile-image-2.jpg"
                             alt=""
                             className="w-full"
                           />
                         </div>
-                        <div className="w-[30%] rounded-lg overflow-hidden transition-all duration-500 hover:translate-y-[-1rem]">
+                        <div className="w-[30%] rounded-lg overflow-hidden transition-all duration-700 hover:translate-y-[-1rem] cursor-pointer">
                           <img
                             src="/images/landing-page/mobile-image-3.jpg"
                             alt=""
