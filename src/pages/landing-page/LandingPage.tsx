@@ -413,7 +413,7 @@ const LandingPage = () => {
                       </div>
                     </SwiperSlide>
                     <SwiperSlide key={ar7Id()} className="">
-                      <div className="mt-10 md:mt-0">
+                      <div className="">
                         <div className="text-[white] opacity-[0.9] lg:text-lg">
                           The Milkbar team are amazing to work and understood my
                           vision right from the beginning. Will definitely
