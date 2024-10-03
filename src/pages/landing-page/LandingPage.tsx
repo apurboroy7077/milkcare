@@ -20,12 +20,17 @@ const LandingPage = () => {
         }
       }
     };
-
+    responsivenessFunction();
+    setTimeout(() => {
+      responsivenessFunction();
+    }, 3000);
     window.addEventListener("load", responsivenessFunction);
+    window.addEventListener("DOMContentLoaded", responsivenessFunction);
     window.addEventListener("resize", responsivenessFunction);
     return () => {
       window.removeEventListener("load", responsivenessFunction);
       window.removeEventListener("resize", responsivenessFunction);
+      window.removeEventListener("DOMContentLoaded", responsivenessFunction);
     };
   }, []);
   return (
