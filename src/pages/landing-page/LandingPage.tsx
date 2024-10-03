@@ -206,11 +206,13 @@ const LandingPage = () => {
                           <div className=" h-full flex justify-center items-center">
                             <div className="w-[80%]">
                               <div className="flex justify-center items-center">
-                                <img
-                                  src="/images/landing-page/house-1.jpg"
-                                  alt=""
-                                  className="w-[100%] max-w-[21rem] md:max-w-[100%]"
-                                />
+                                <video className="w-full" autoPlay loop muted>
+                                  <source
+                                    src="/videos/house.mp4"
+                                    type="video/mp4"
+                                  />
+                                  Your browser does not support the video tag.
+                                </video>
                               </div>
                             </div>
                           </div>
@@ -361,11 +363,13 @@ const LandingPage = () => {
                           <div className=" h-full flex justify-center items-center">
                             <div className="w-[80%]">
                               <div className="flex justify-center items-center">
-                                <img
-                                  src="/images/landing-page/house-1.jpg"
-                                  alt=""
-                                  className="w-[100%] max-w-[21rem] md:max-w-[100%]"
-                                />
+                                <video className="w-full" autoPlay loop muted>
+                                  <source
+                                    src="/videos/house.mp4"
+                                    type="video/mp4"
+                                  />
+                                  Your browser does not support the video tag.
+                                </video>
                               </div>
                             </div>
                           </div>
@@ -513,11 +517,13 @@ const LandingPage = () => {
                           <div className=" h-full flex justify-center items-center">
                             <div className="w-[80%]">
                               <div className="flex justify-center items-center">
-                                <img
-                                  src="/images/landing-page/house-1.jpg"
-                                  alt=""
-                                  className="w-[100%] max-w-[21rem] md:max-w-[100%]"
-                                />
+                                <video className="w-full" autoPlay loop muted>
+                                  <source
+                                    src="/videos/house.mp4"
+                                    type="video/mp4"
+                                  />
+                                  Your browser does not support the video tag.
+                                </video>
                               </div>
                             </div>
                           </div>
