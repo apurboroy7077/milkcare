@@ -155,97 +155,7 @@ const LandingPage = () => {
         <section>
           <div className="pt-10 md:pt-32 flex justify-center items-center bg-[#131313] px-5">
             <div className="max-w-screen-xl w-full  py-10 ">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-5 lg:gap-32">
-                <div>
-                  <div className="h-[25rem] sm:h-[30rem] lg:h-[35rem]  relative overflow-hidden rounded ">
-                    <div className="h-full transition-all duration-700 hover:scale-[1.05] cursor-pointer">
-                      <img
-                        src="/images/landing-page/ocean.jpg"
-                        alt=""
-                        className="h-full w-full object-cover object-center"
-                      />
-                      <div className="absolute top-0 h-full w-full bg-[black] bg-opacity-50">
-                        <div className=" h-full flex justify-center items-center">
-                          <div className="w-[80%]">
-                            <div>
-                              <img
-                                src="/images/landing-page/boat.jpg"
-                                alt=""
-                                className=""
-                              />
-                            </div>
-                            <div className="mt-5 md:mt-10  text-[white] opacity-[0.7] md:text-lg">
-                              London-based luxury travel concierge
-                            </div>
-                            <div className="mt-3 md:mt-4 text-[white] opacity-[0.7] text-xs md:text-sm">
-                              HOSPITALITY-BRAND DIRECTION
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div>
-                  <div className="h-[25rem] sm:h-[30rem] lg:h-[35rem]  relative overflow-hidden rounded">
-                    <div className="h-full transition-all duration-700 hover:scale-[1.05] cursor-pointer">
-                      <img
-                        src="/images/landing-page/inside-house.jpg"
-                        alt=""
-                        className="h-full w-full object-cover object-center"
-                      />
-                      <div className="absolute top-0 h-full w-full bg-[black] bg-opacity-60">
-                        <div className=" h-full flex justify-center items-center">
-                          <div className="w-[80%]">
-                            <div className="flex justify-center items-center">
-                              <img
-                                src="/images/landing-page/mobile-image-1.jpg"
-                                alt=""
-                                className="w-[30%] rounded-lg"
-                              />
-                            </div>
-                            <div className="mt-5 md:mt-10  text-[white] opacity-[0.7] md:text-lg">
-                              London-based luxury travel concierge
-                            </div>
-                            <div className="mt-3 md:mt-4 text-[white] opacity-[0.7] text-xs md:text-sm">
-                              HOSPITALITY-BRAND DIRECTION
-                            </div>
-                          </div>
-                        </div>
-                      </div>{" "}
-                    </div>
-                  </div>
-                </div>
-                <div>
-                  <div className="h-[25rem] sm:h-[30rem] lg:h-[35rem]  relative overflow-hidden rounded">
-                    <div className="h-full transition-all duration-700 hover:scale-[1.05] cursor-pointer">
-                      <img
-                        src="/images/landing-page/inside-house.jpg"
-                        alt=""
-                        className="h-full w-full object-cover object-center"
-                      />
-                      <div className="absolute top-0 h-full w-full bg-[black] bg-opacity-60">
-                        <div className=" h-full flex justify-center items-center">
-                          <div className="w-[80%]">
-                            <div className="flex justify-center items-center">
-                              <img
-                                src="/images/landing-page/mobile-image-1.jpg"
-                                alt=""
-                                className="w-[30%] rounded-lg"
-                              />
-                            </div>
-                            <div className="mt-5 md:mt-10  text-[white] opacity-[0.7] md:text-lg">
-                              London-based luxury travel concierge
-                            </div>
-                            <div className="mt-3 md:mt-4 text-[white] opacity-[0.7] text-xs md:text-sm">
-                              HOSPITALITY-BRAND DIRECTION
-                            </div>
-                          </div>
-                        </div>
-                      </div>{" "}
-                    </div>
-                  </div>
-                </div>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-x-10 lg:gap-x-16 md:gap-y-0">
                 <div>
                   <div className="h-[25rem] sm:h-[30rem] lg:h-[35rem]  relative overflow-hidden rounded">
                     <div className="h-full transition-all duration-700 hover:scale-[1.05] cursor-pointer">
@@ -273,6 +183,175 @@ const LandingPage = () => {
                           </div>
                         </div>
                       </div>{" "}
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div className=" md:mt-36 h-[25rem] sm:h-[30rem] lg:h-[35rem]  relative overflow-hidden rounded">
+                    <div className="h-full transition-all duration-700 hover:scale-[1.05] cursor-pointer">
+                      <img
+                        src="/images/landing-page/inside-house.jpg"
+                        alt=""
+                        className="h-full w-full object-cover object-center"
+                      />
+                      <div className="absolute top-0 h-full w-full bg-[black] bg-opacity-60">
+                        <div className=" h-full flex justify-center items-center">
+                          <div className="w-[80%]">
+                            <div className="flex justify-center items-center">
+                              <video
+                                className="w-[30%] rounded-xl sm:rounded-2xl md:rounded-3xl"
+                                autoPlay
+                                loop
+                                muted
+                              >
+                                <source
+                                  src="/videos/mobile.mp4"
+                                  type="video/mp4"
+                                />
+                                Your browser does not support the video tag.
+                              </video>
+                            </div>
+                            <div className="mt-5 md:mt-10  text-[white] opacity-[0.7] md:text-lg">
+                              London-based luxury travel concierge
+                            </div>
+                            <div className="mt-3 md:mt-4 text-[white] opacity-[0.7] text-xs md:text-sm">
+                              HOSPITALITY-BRAND DIRECTION
+                            </div>
+                          </div>
+                        </div>
+                      </div>{" "}
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div className="md:mt-[-5rem] h-[25rem] sm:h-[30rem] lg:h-[30rem]   relative overflow-hidden rounded ">
+                    <div className="h-full transition-all duration-700 hover:scale-[1.05] cursor-pointer">
+                      <img
+                        src="/images/landing-page/ocean.jpg"
+                        alt=""
+                        className="h-full w-full object-cover object-center"
+                      />
+                      <div className="absolute top-0 h-full w-full bg-[black] bg-opacity-50">
+                        <div className=" h-full flex justify-center items-center">
+                          <div className="w-[80%]">
+                            <div>
+                              <video className="w-full" autoPlay loop muted>
+                                <source
+                                  src="/videos/boat.mp4"
+                                  type="video/mp4"
+                                />
+                                Your browser does not support the video tag.
+                              </video>
+                            </div>
+                            <div className="mt-5 md:mt-10  text-[white] opacity-[0.7] md:text-lg">
+                              London-based luxury travel concierge
+                            </div>
+                            <div className="mt-3 md:mt-4 text-[white] opacity-[0.7] text-xs md:text-sm">
+                              HOSPITALITY-BRAND DIRECTION
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div>
+                  <div className="md:mt-[4rem] h-[25rem] sm:h-[30rem] lg:h-[35rem]  relative overflow-hidden rounded">
+                    <div className="h-full transition-all duration-700 hover:scale-[1.05] cursor-pointer">
+                      <img
+                        src="/images/landing-page/house-2.jpg"
+                        alt=""
+                        className="h-full w-full object-cover object-center"
+                      />
+                      <div className="absolute top-0 h-full w-full bg-[black] bg-opacity-60">
+                        <div className=" h-full flex justify-center items-center">
+                          <div className="w-[80%]">
+                            <div className="flex justify-center items-center">
+                              <img
+                                src="/images/landing-page/house-1.jpg"
+                                alt=""
+                                className="w-[100%] "
+                              />
+                            </div>
+                            <div className="mt-5 md:mt-10  text-[white] opacity-[0.7] md:text-lg">
+                              London-based luxury travel concierge
+                            </div>
+                            <div className="mt-3 md:mt-4 text-[white] opacity-[0.7] text-xs md:text-sm">
+                              HOSPITALITY-BRAND DIRECTION
+                            </div>
+                          </div>
+                        </div>
+                      </div>{" "}
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div className=" md:mt-[-10rem] h-[25rem] sm:h-[30rem] lg:h-[35rem]  relative overflow-hidden rounded">
+                    <div className="h-full transition-all duration-700 hover:scale-[1.05] cursor-pointer">
+                      <img
+                        src="/images/landing-page/inside-house.jpg"
+                        alt=""
+                        className="h-full w-full object-cover object-center"
+                      />
+                      <div className="absolute top-0 h-full w-full bg-[black] bg-opacity-60">
+                        <div className=" h-full flex justify-center items-center">
+                          <div className="w-[80%]">
+                            <div className="flex justify-center items-center">
+                              <video
+                                className="w-[30%] rounded-xl sm:rounded-2xl md:rounded-3xl"
+                                autoPlay
+                                loop
+                                muted
+                              >
+                                <source
+                                  src="/videos/mobile.mp4"
+                                  type="video/mp4"
+                                />
+                                Your browser does not support the video tag.
+                              </video>
+                            </div>
+                            <div className="mt-5 md:mt-10  text-[white] opacity-[0.7] md:text-lg">
+                              London-based luxury travel concierge
+                            </div>
+                            <div className="mt-3 md:mt-4 text-[white] opacity-[0.7] text-xs md:text-sm">
+                              HOSPITALITY-BRAND DIRECTION
+                            </div>
+                          </div>
+                        </div>
+                      </div>{" "}
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <div className="md:mt-[4rem] h-[25rem] sm:h-[30rem] lg:h-[30rem]   relative overflow-hidden rounded ">
+                    <div className="h-full transition-all duration-700 hover:scale-[1.05] cursor-pointer">
+                      <img
+                        src="/images/landing-page/ocean.jpg"
+                        alt=""
+                        className="h-full w-full object-cover object-center"
+                      />
+                      <div className="absolute top-0 h-full w-full bg-[black] bg-opacity-50">
+                        <div className=" h-full flex justify-center items-center">
+                          <div className="w-[80%]">
+                            <div>
+                              <video className="w-full" autoPlay loop muted>
+                                <source
+                                  src="/videos/boat.mp4"
+                                  type="video/mp4"
+                                />
+                                Your browser does not support the video tag.
+                              </video>
+                            </div>
+                            <div className="mt-5 md:mt-10  text-[white] opacity-[0.7] md:text-lg">
+                              London-based luxury travel concierge
+                            </div>
+                            <div className="mt-3 md:mt-4 text-[white] opacity-[0.7] text-xs md:text-sm">
+                              HOSPITALITY-BRAND DIRECTION
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
